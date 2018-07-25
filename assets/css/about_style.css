@@ -1,0 +1,447 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#top_header{
+	min-height: 200px;
+	position: fixed;
+	width:100%;
+	top:0;
+}
+
+#logo{
+	color:white;
+	font-size: 5em;
+	font-family: 'Petit Formal Script', cursive;
+	font-weight: 500px;
+}
+
+/*Nav bar*/
+
+ /*Dropdown Button*/
+
+		 .dropbtn{
+		 	background-color: #4CAF50
+		 	color:white;
+		 	padding:16px;
+		 	font-size: 16px;
+		 	border:none;
+		 	border-radius: 5px;
+		 	width:75%;
+		 	position:relative;
+		 }
+
+
+		 /*The container <div> - needed to position the dropdown content*/
+
+		 .dropdown{
+		 	position:relative;
+		 	display:inline-block;
+		 	width:25%;
+		 }
+
+		 /*Dropwdown Content (Hidden by Default)*/
+
+		 .dropdown-content{
+		 	display: none;
+		 	position: absolute;
+		 	background-color: #f1f1f1;
+		 	min-width: 160px;
+		 	/*width:50%;*/
+		 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		 	z-index: 1;
+		 }
+		 /*Links inside the dropdown*/
+
+		 .dropdown-content a{
+		 	color:black;
+		 	padding: 12px 16px;
+		 	text-decoration:none;
+		 	display:block;
+		 }
+
+		 /*Change color of dropdown links on hover*/
+
+		 .dropdown-content a:hover {
+		 	background-color: #ddd;
+		 }
+
+
+		 /*Shown the dropdown menu on hover*/
+		 .dropdown:hover .dropdown-content{
+		 	display:block;
+		 }
+
+		 /*Change the background color of the dropdown button wehn the content is shown*/
+
+		 .dropdown:hover .dropbtn{
+		 	background-color: #333;
+		 	color:white;
+		 }
+
+
+		 .nav_menu{
+		 	display: none;
+		 }
+
+
+
+header h1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.few_words p{
+	text-align:left;
+	font-size:1.0em;
+	margin-bottom: 30px;
+}
+
+.few_words{
+	float: center;
+	padding: 10px;
+	margin:5px;
+
+}
+
+.img_about{
+	border:0;
+}
+
+#top_header{
+	background-color: #823f3f;
+	padding:10px 20px;
+	text-align: center;
+}
+
+
+#section{
+	margin-top: 120px;
+}
+
+#section2{
+	/*padding:20px 5px;*/
+	text-align:center;
+	background-image: url("../../images/parallax02.jpg");
+	background-size: cover;
+	height:1100px;
+	width:100%;
+	/*background-color: blue;*/
+	margin-top:150px;
+	margin-bottom: 0
+}
+
+.good_food{
+	margin:0;
+	padding:20px 5px;
+	/*background-image: url('images/parallax02.jpg');*/
+	/*background-color: red;*/
+	height:100%;
+	/*width:100%;*/
+
+}
+
+.good_food_para{
+	color:white;
+}
+
+.row{
+	margin-top:40px;
+}
+
+/*.row{
+	display:inline-block;
+	float:center;
+	height:60%;
+	margin-top: 50px;
+}
+
+.column{
+	width:300px;
+	text-align: left;
+	font-size:.9em;
+	float:left;
+	padding: 4px 2%;
+}
+
+.column p{
+	color:white;
+	text-align: left;
+	float:center;
+}*/
+
+.column{
+	margin: 40px;
+	text-align: left;
+}
+
+
+
+/*Section3*/
+#section3{
+	height:1500px;
+}
+
+#special{
+	padding-top:0;
+}
+
+#why_us{
+	height:100%;
+	color:#5f5e4e;
+	font-size: 1em;
+	text-align: left;
+	color:#5f5e4e;
+}
+
+h3.upper{
+	color:#5f5e4e;
+	font-weight:500;
+}
+
+p.lower{
+	color:#5f5e4e;
+	margin-top: 10px;
+}
+
+
+/*Section4*/
+#section4{
+	background-image: url("../../images/parallax03.jpg");
+	height:1300px;
+}
+
+
+.customer_name{
+	color:#5F5E4E;
+	font-family: 'Petit Formal Script', cursive;
+}
+
+.client{
+	color:#5F5E4E;
+}
+
+
+
+button{
+	margin: 10px 5px;
+	background-color: none;
+	padding: 10px 16px;
+	border: 1px solid #a95858;
+	color:#38393a;
+}
+
+button:hover{
+	color:white;
+	background-color: #a95858;
+}
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...} 
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	#content_1{
+		display:inline-block;
+	}
+	.few_words{
+		float:left;
+	}
+
+	.row{
+		display:inline-block;
+	}
+
+	.column{
+		float:left;
+		margin:5px 20px;
+		width:400px;
+		text-align: left;
+	}
+
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 760px) {
+
+	#content_1{
+		display:inline-block;
+	}
+	.few_words{
+		float:left;
+		margin: 80px 20px;
+	}
+
+	.row{
+		display:inline-block;
+	}
+
+	.column{
+		float:left;
+		margin:20px 10px;
+		width:400px;
+		text-align: left;
+	}
+
+	body{
+		/*display: none;*/
+	}
+
+
+		.good_food{
+			padding:50px;
+		}
+
+		#why_us{
+			padding:50px;
+
+		}
+
+		.Testimonials{
+			padding:50px;
+		}
+
+	#section2{
+		height:auto;
+		margin:auto;
+	}
+	#section3{
+		height:auto;
+		margin:auto;
+	}
+
+	#section4{
+		height:auto;
+		margin:auto;
+	}
+
+
+}
+
+
+/*Dropdown Nav bar is hidden*/
+@media only screen and (min-width: 930px) {
+	.dropdown{
+		display:none;
+	}
+
+	/*Display traditional nav bar*/
+
+	.nav_menu{
+		display: inline-block;
+	}
+
+.nav_menu{
+overflow: hidden;
+background-color: #823f3f;
+bottom:0;
+width:100%;
+/*margin-top: 80px;*/
+}
+
+.nav_menu a{
+float:left;
+display:block;
+padding:12px 30px;
+color:white;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_menu a:hover{
+color:#333;
+/*background-color: white;*/
+}
+
+.link_container{
+	margin:0 auto;
+	width:80%;
+	text-align:center;
+	padding: 0 25%;
+	/*I am not sure why the padding above works but it does :/*/
+}
+} 
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	#content_1{
+		display:inline-block;
+	}
+	.few_words{
+		float:left;
+	}
+
+	.row{
+		display:inline-block;
+	}
+
+	.column{
+		float:left;
+		margin:20px 20px;
+		width: 350px;
+		text-align:left;
+	}
+
+	body{
+		/*display: none;*/
+	}
+
+
+		.good_food{
+			padding:50px;
+		}
+
+		.good_food_para{
+			margin: 80px 0;
+		}
+
+		#why_us{
+			padding:100px 50px;
+
+		}
+
+		.Testimonials{
+			padding:50px;
+		}
+
+	#section2{
+		height:auto;
+		margin:auto;
+	}
+	#section3{
+		height:auto;
+		margin:auto;
+	}
+
+	#section4{
+		height:auto;
+		margin:auto;
+	}
+
+button{
+	margin: 150px 0;
+}
+
+.Testimonial h1{
+	margin: 30px 0;
+}
+
+
+}
