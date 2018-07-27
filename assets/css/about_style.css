@@ -39,7 +39,7 @@ body{
 		 .dropdown{
 		 	position:relative;
 		 	display:inline-block;
-		 	width:25%;
+		 	width:160px;
 		 }
 
 		 /*Dropwdown Content (Hidden by Default)*/
@@ -92,6 +92,12 @@ header h1{
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+.few_words{
+	float: center;
+	padding: 10px 0;
+	margin:5px 0;
+	width:100%;
+}
 
 .few_words p{
 	text-align:left;
@@ -99,12 +105,7 @@ header h1{
 	margin-bottom: 30px;
 }
 
-.few_words{
-	float: center;
-	padding: 10px;
-	margin:5px;
 
-}
 
 .img_about{
 	border:0;
@@ -119,6 +120,7 @@ header h1{
 
 #section{
 	margin-top: 120px;
+	padding-top: 100px;
 }
 
 #section2{
@@ -136,52 +138,30 @@ header h1{
 .good_food{
 	margin:0;
 	padding:20px 5px;
-	/*background-image: url('images/parallax02.jpg');*/
-	/*background-color: red;*/
 	height:100%;
-	/*width:100%;*/
-
 }
 
 .good_food_para{
 	color:white;
 }
-
 .row{
 	margin-top:40px;
+	height:auto;
+	max-height: 
 }
-
-/*.row{
-	display:inline-block;
-	float:center;
-	height:60%;
-	margin-top: 50px;
-}
-
-.column{
-	width:300px;
-	text-align: left;
-	font-size:.9em;
-	float:left;
-	padding: 4px 2%;
-}
-
 .column p{
 	color:white;
 	text-align: left;
 	float:center;
-}*/
+}
 
 .column{
 	margin: 40px;
 	text-align: left;
 }
-
-
-
 /*Section3*/
 #section3{
-	height:1500px;
+	height:auto;
 }
 
 #special{
@@ -189,7 +169,6 @@ header h1{
 }
 
 #why_us{
-	height:100%;
 	color:#5f5e4e;
 	font-size: 1em;
 	text-align: left;
@@ -208,9 +187,11 @@ p.lower{
 
 
 /*Section4*/
+
+
 #section4{
 	background-image: url("../../images/parallax03.jpg");
-	height:1300px;
+	height:auto;
 }
 
 
@@ -274,7 +255,6 @@ button:hover{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 760px) {
-
 	#content_1{
 		display:inline-block;
 	}
@@ -331,16 +311,15 @@ button:hover{
 
 
 /*Dropdown Nav bar is hidden*/
-@media only screen and (min-width: 930px) {
+@media(min-width: 930px) {
 	.dropdown{
 		display:none;
 	}
 
 	/*Display traditional nav bar*/
-
-	.nav_menu{
-		display: inline-block;
-	}
+.nav_menu{
+display: inline-block;
+}
 
 .nav_menu{
 overflow: hidden;
@@ -366,10 +345,12 @@ color:#333;
 
 .link_container{
 	margin:0 auto;
-	width:80%;
 	text-align:center;
-	padding: 0 25%;
 	/*I am not sure why the padding above works but it does :/*/
+}
+
+.links_container li{
+	padding: 0 20px;
 }
 } 
 
@@ -438,6 +419,7 @@ color:#333;
 button{
 	margin: 150px 0;
 }
+
 
 .Testimonial h1{
 	margin: 30px 0;
