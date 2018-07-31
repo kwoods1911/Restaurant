@@ -10,9 +10,6 @@ body{
 	background-position:center;
 	background-size: cover;
 }
-#showcase-slider .bg-img{
-}
-
 
 .showcase-header{
 	padding-bottom: 0;
@@ -21,7 +18,7 @@ body{
 .showcase-header h1{
 	padding: 300px 0;
 	color:white;
-	font-size: 5em;
+	font-size: 3em;
 	z-index: 0;
 }
 .test_bground{
@@ -168,7 +165,7 @@ background-color:white;
 	text-align: center;
 }
 .card{
-	width: 290px;
+	width: 250px;
 	margin:0 auto;
 }
 .card p {
