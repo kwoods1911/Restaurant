@@ -197,13 +197,10 @@ background-color:white;
 .header_style{
 	text-align: center;
 	font-family: 'Lobster Two', cursive;
-	padding:50px 0;
+	padding:100px 0;
 
 }
-.header_style span,h1{
-	color:#823f3f;
-	/*padding:5;*/
-}
+
 
 .header_style span{
 	font-weight: 700;
@@ -309,8 +306,14 @@ background-color:white;
 	text-align: left;
 }
 
-.header_style ,.stff{
+.header_style .stff{
 	color: white;
+}
+.maroon{
+	color:#823f3f;
+}
+.white{
+	color:#fff;
 }
 .name{
 	font-family: 'Lobster Two', cursive;
@@ -357,13 +360,10 @@ background-color:white;
 
 /*Footer*/
 #footer{
-
-	margin-top: -5px;
-	height:200px;
+	height:auto;
 	background:#a95858;
 	text-align: center;
-	padding-top:69px;
-	padding-bottom: 69px;
+	padding:50px 0;
 }
 
 #social_media{

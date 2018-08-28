@@ -127,13 +127,11 @@ header h1{
 }
 
 #section2{
-	/*padding:20px 5px;*/
 	text-align:center;
-	background-image: url("../../images/parallax02.jpg");
+	background-image: url("images/dining_4.jpeg");
 	background-size: cover;
-	height:1100px;
+	height:auto;
 	width:100%;
-	/*background-color: blue;*/
 	margin-top:150px;
 	margin-bottom: 0
 }
@@ -159,12 +157,14 @@ header h1{
 }
 
 .column{
-	margin: 40px;
+	padding:20px 15px;
 	text-align: left;
 }
 /*Section3*/
 #section3{
 	height:auto;
+	background-color: rgba(127,127,127,0.5);
+	padding:10px 0;
 }
 
 #special{
@@ -179,12 +179,11 @@ header h1{
 }
 
 h3.upper{
-	color:#5f5e4e;
-	font-weight:500;
+	color:#fff;
 }
 
 p.lower{
-	color:#5f5e4e;
+	color:#fff;
 	margin-top: 10px;
 }
 
@@ -193,18 +192,30 @@ p.lower{
 
 
 #section4{
-	background-image: url("../../images/parallax03.jpg");
+	position: relative;
+	z-index: -1;
+	background-image: url("images/dining_2.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
 	height:auto;
+	border-top:12px solid #333;
 }
 
+.overlay2{
+	position: absolute;
+	z-index: -2;
+	background-color: rgba(127,127,127,0.5);
+	height:100%;
+	width: 100%;
+}
 
 .customer_name{
-	color:#5F5E4E;
+	color:#fff;
 	font-family: 'Petit Formal Script', cursive;
 }
 
 .client{
-	color:#5F5E4E;
+	color:#fff;
 }
 
 
@@ -293,6 +304,7 @@ button:hover{
 
 		.Testimonials{
 			padding:50px;
+			color:#fff;
 		}
 
 	#section2{
