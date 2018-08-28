@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+	<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
 </head>
 <body>
 
@@ -21,7 +23,7 @@
 
 	<div class="test_bground">
 		<div class="logo">
-			<a id="logo" href="index.html">Scarlet's Eatery</a>
+			<a id="logo" href="index.html">Scarlet's</a>
 		</div>
 
 
@@ -30,7 +32,7 @@
 		<div id="logo">
 			<!-- give unique font -->
 			<!-- float to left -->
-			<a id="logo" href="index.html">Scarlet's Eatery</a>
+			<a id="logo" href="index.html">Scarlet's</a>
 		</div>
 		<div class="link_container">
 			<ul>
@@ -62,11 +64,13 @@
 	<section id="showcase_slider">
 
 		
-		
+		<div class="overlay"></div>
+
 		<header class="showcase-header">
 			<h1>Scarlet's Eatery</h1>
 		</header>
-	</section>
+
+			</section>
 
 
 
@@ -75,8 +79,8 @@
 		<div class="inner">
 			 <section id="Welcome">
 			 	<header class="header_style">
-			 		<h1> <span>Welcome</span></h1>
-			 		<h1>to Our Place</h1> 
+			 		<h1> <span>Experience</span></h1>
+			 		<h1>the finest cusine.</h1> 
 			 	</header>
 
 			 	<div class="inline_wrapper">
@@ -84,7 +88,19 @@
 			 <div class="card welcome">
 
 
-			 		<img src="images/page-1_img01.jpg">
+			 		<img src="assets/css/images/fine_dining_1.jpeg">
+
+
+			 		<div class="card-content">
+			 			<p class="para1">Bacon ipsum dolor amet burgdoggen capicola tongue, chuck venison porchetta ball tip. Pig leberkas burgdoggen, tenderloin meatball ball tip pork loin chuck kevin cow porchetta. Meatball jowl short loin, chuck shank cow tail corned beef rump capicola pastrami brisket. Capicola short loin leberkas burgdoggen chicken pork belly hamburger. Brisket cupim short ribs meatball beef ribs, shoulder burgdoggen jowl chicken short loin prosciutto.</p>
+			 		</div>
+
+			 	</div>
+
+			 	 <div class="card welcome">
+
+
+			 		<img src="assets/css/images/fine_dining_2.jpeg">
 
 			 		<div class="card-content">
 			 			<p class="para1">Bacon ipsum dolor amet burgdoggen capicola tongue, chuck venison porchetta ball tip. Pig leberkas burgdoggen, tenderloin meatball ball tip pork loin chuck kevin cow porchetta. Meatball jowl short loin, chuck shank cow tail corned beef rump capicola pastrami brisket. Capicola short loin leberkas burgdoggen chicken pork belly hamburger. Brisket cupim short ribs meatball beef ribs, shoulder burgdoggen jowl chicken short loin prosciutto.</p>
@@ -94,7 +110,7 @@
 
 			 	<div class="card welcome">
 
-			 		<img src="images/page-1_img02.jpg">
+			 		<img src="assets/css/images/fine_dining_3.jpeg">
 
 			 		<div class="card-content">
 			 			<p class="para1">Bacon ipsum dolor amet burgdoggen capicola tongue, chuck venison porchetta ball tip. Pig leberkas burgdoggen, tenderloin meatball ball tip pork loin chuck kevin cow porchetta. Meatball jowl short loin, chuck shank cow tail corned beef rump capicola pastrami brisket. Capicola short loin leberkas burgdoggen chicken pork belly hamburger. Brisket cupim short ribs meatball beef ribs, shoulder burgdoggen jowl chicken short loin prosciutto.</p>
@@ -128,7 +144,7 @@
 	<section id="cusine">
 			<header class="header_style">
 			 		<h1> <span>Our</span></h1>
-			 		<h1>Cusine</h1>
+			 		<h1>Selection</h1>
 			 	</header>
 
 			 	<div class="inline_wrapper">
@@ -136,39 +152,53 @@
 
 <div class="gallery">
 	<div class="images">
-		<img src="images/page-1_img03.jpg">
+		<div class="description">Egg Salad</div>
+		<img src="assets/css/images/meal_1.jpeg">
 	</div>
 
 	<div class="images">
-		<img src="images/page-1_img04.jpg">
+		<div class="description">Green Salad</div>
+		<img src="assets/css/images/meal_2.jpg">
 	</div>
 
 	<div class="images">
-		<img src="images/page-1_img05.jpg">
+		<div class="description">Hamburgers</div>
+		<img src="assets/css/images/meal_3.jpeg">
 	</div>
 
 	<div class="images">
-		<img src="images/page-1_img06.jpg">
+		<div class="description">Fresh Salmon</div>
+		<img src="assets/css/images/meal_4.jpeg">
 	</div>
 
 	<div class="images">
-		<img src="images/page-1_img07.jpg">
+		<div class="description">Dips n Chips</div>
+		<img src="assets/css/images/meal_5.jpg">
 	</div>
 
 	<div class="images">
-		<img src="images/page-1_img08.jpg">
+		<div class="description">Steak n' Salad</div>
+		<img src="assets/css/images/meal_6.jpeg">
 	</div>
 
 	<div class="images">
-		<img src="images/page-1_img09.jpg">
+		<div class="description">Burrito</div>
+		<img src="assets/css/images/meal_7.jpeg">
 	</div>
 
 	<div class="images">
-		<img src="images/page-1_img10.jpg">
+		<div class="description">Pizza</div>
+		<img src="assets/css/images/meal_8.jpeg">
 	</div>
 
 	<div class="images">
-		<img src="images/page-1_img11.jpg">
+		<div class="description">Crambule'</div>
+		<img src="assets/css/images/meal_9.jpeg">
+	</div>
+
+	<div class="images">
+		<div class="description">Sushi'</div>
+		<img src="assets/css/images/meal_10.jpeg">
 	</div>
 </div>
 			 	</div>
@@ -179,11 +209,10 @@
 
 
 	<section id="experience">
-			<!-- Add background image -->
 				<header class="header_style">
 					<div class="special">
-						<h1> <span>Our</span></h1>
-			 		<h1>Experience</h1>
+					<h1> <span>Favorable</span></h1>
+			 		<h1>Atmosphere</h1>
 					</div>
 			 		
 			 	</header>
@@ -197,9 +226,7 @@
 			 		</div>
 			 		
 
-			 		<div class="link">
-			 			<a href=""> View Full Menu</a>
-			 		</div>
+			 	
 			 		
 			 	</div>
 		</section>
@@ -222,23 +249,22 @@
 
 							<div class="card employee">
 
-							<img src="images/page-1_img12.jpg">
+							<img src="assets/css/images/staff_1.jpg">
 
 							<div class="staff info">
-							<h3 class="name">First Name</h3>
-							<p>Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl
-							Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla.</p>
+							<h3 class="name">Marcus Brown</h3>
+							<p>Bacon ipsum dolor amet burgdoggen capicola tongue, chuck venison porchetta ball tip. Pig leberkas burgdoggen, tenderloin meatball ball tip pork loin chuck kevin cow porchetta. Meatball jowl short loin, chuck shank cow tail corned beef rump capicola pastrami brisket. Capicola short loin leberkas burgdoggen chicken pork belly hamburger. Brisket cupim short ribs meatball beef ribs, shoulder burgdoggen jowl chicken short loin prosciutto.</p>
 							</div>
 
 							</div>
 
 							<div class="card employee">
 
-							<img src="images/page-1_img13.jpg">
+							<img src="assets/css/images/staff_2.jpg">
 
 							<div class="staff info">
 
-							<h3 class="name"> First Name</h3>
+							<h3 class="name"> Suzane Collie</h3>
 							<p>Bacon ipsum dolor amet burgdoggen capicola tongue, chuck venison porchetta ball tip. Pig leberkas burgdoggen, tenderloin meatball ball tip pork loin chuck kevin cow porchetta. Meatball jowl short loin, chuck shank cow tail corned beef rump capicola pastrami brisket. Capicola short loin leberkas burgdoggen chicken pork belly hamburger. Brisket cupim short ribs meatball beef ribs, shoulder burgdoggen jowl chicken short loin prosciutto.</p>
 							</div>
 
@@ -247,11 +273,11 @@
 
 							<div class="card employee">
 
-							<img src="images/page-1_img14.jpg">
+							<img src="assets/css/images/staff_3.jpeg">
 
 							<div class="staff info">
 
-							<h3 class="name"> First Name</h3>
+							<h3 class="name">Angela Brown </h3>
 							<p>Bacon ipsum dolor amet burgdoggen capicola tongue, chuck venison porchetta ball tip. Pig leberkas burgdoggen, tenderloin meatball ball tip pork loin chuck kevin cow porchetta. Meatball jowl short loin, chuck shank cow tail corned beef rump capicola pastrami brisket. Capicola short loin leberkas burgdoggen chicken pork belly hamburger. Brisket cupim short ribs meatball beef ribs, shoulder burgdoggen jowl chicken short loin prosciutto.</p>
 							</div>
 							</div>
@@ -290,11 +316,11 @@
 			 		<h1>a  Reservation</h1>
 			 	</header>
 
-			 	<p class="info">Fnteger convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla. Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol.</p>
+			 	<p class="info color">In order to reserve your spot maker a reservation as soon as possible. Fnteger convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. sed,pharetra venenatis nulla. Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis.Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol.</p>
 
 			 	<div class="address">
 			 		<h3> Address:</h3>
-			 	<h3> 4578 Marmora Road, Glasgow DA04 89GR</h3>
+			 	<h3>123 Something Street, Nassau, Bahamas</h3>
 			 	</div>
 			 	<h1  id="phone"> 242 333-0000</h1>
 		</div>
@@ -335,4 +361,6 @@
 	
 
 </body>
+
+<script type="text/javascript" src="assets/js/main.js"></script>
 </html>

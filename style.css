@@ -6,7 +6,7 @@ body{
 #showcase_slider{
 	min-height: 450px;
 	text-align: center;
-	background-image: url('images/slide01.jpg');
+	background-image: url('assets/css/images/showcase_1.jpeg');
 	background-position:center;
 	background-size: cover;
 }
@@ -131,10 +131,11 @@ width:100%;
 z-index: 2;
 }
 
+
 .navbar a{
 float:left;
 display:block;
-padding:12px 30px;
+padding:20px 64px;
 color:white;
 font-size: 18px;
 text-decoration: none;
@@ -153,7 +154,11 @@ background-color:white;
 
 #logo{
 	font-family: 'Caveat', cursive;
-	font-size: 15px;
+	font-size: 20px;
+}
+
+#logo:hover{
+	transition: .6s;
 }
 #content{
 	font-family: Arial, Helvetica, sans-serif;
@@ -172,12 +177,14 @@ background-color:white;
 	width:100%;
 	text-align: center;
 	color:#5f5e4e;
+	text-align: left;
 }
 
 .card img{
 	width:100%;
-	border: 1px solid #5f5e4e;
+	border-bottom: 1.5px solid #5f5e4e;
 	padding:0;
+	padding-bottom: 10px;
 }
 
 .page_breaker hr {
@@ -190,7 +197,7 @@ background-color:white;
 .header_style{
 	text-align: center;
 	font-family: 'Lobster Two', cursive;
-	padding-top: 50px;
+	padding:50px 0;
 
 }
 .header_style span,h1{
@@ -213,32 +220,50 @@ background-color:white;
 }
 .para1{
 	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
 }
 .images{
+	position: relative;
 	margin:10px 2px;
 	display: inline-block;
     width: 250px; 
     height:200px;
 }
 
-.images img:hover{
-	/*border:px solid #823f3f;*/
+.description{
+	display:none;
+	height:100%;
+	width: 100%;
+	position: absolute;
+	color:#fff;
+	font-size:20px;
+	top:85%;
+	bottom:0;
+	right:0;
+	left:0;
+	margin:auto;
 }
-div.gallery img {
-    float: left;
+
+.images img{
+	border:2px solid rgba(255,124,124,0.0);
+}
+
+
+.gallery img {
     width: 100%;
     height: 100%;
-    margin: 0;
+    margin: 0 15px;
 }
 .gallery{
 	margin:0;
 	width: 100%;
+	padding: 64px 0;
 }
 #experience{
 	margin:0;
 	text-align: center;
 	background-color: red;
-	background: url('images/parallax01.jpg');
+	background: url('assets/css/images/fine_dining_4.jpeg');
 	background-size: cover;
 	height: auto;
 }
@@ -250,6 +275,7 @@ div.gallery img {
 }
 #experience p{
 	padding:40px 0;
+	text-align: left;
 }
 .special{
 	color:white;
@@ -302,17 +328,23 @@ div.gallery img {
 	margin:0;
 }
 
+.info{
+	padding-top: 40px;
+	font-size: 2vh;
+	margin:0 auto;
+	width:80%;
+	color:#fff;
+}
+
+.color{
+	color:#333;
+	text-align: left;
+}
+
 .address{
 	padding: 10px;
 	margin:30px;
 }
-
-.info{
-	padding-top: 40px;
-	font-size: 2vh;
-}
-
-
 #phone{
 	font-weight: 100;
 	font-size: 50px;
@@ -323,12 +355,11 @@ div.gallery img {
 
 
 
-/*Footer at the bottom of page*/
+/*Footer*/
 #footer{
-	/*bottom:0;*/
+
 	margin-top: -5px;
 	height:200px;
-	/*width:100%;*/
 	background:#a95858;
 	text-align: center;
 	padding-top:69px;
@@ -336,7 +367,6 @@ div.gallery img {
 }
 
 #social_media{
-
 	margin: 40px 20px;
 }
  ul{
@@ -375,15 +405,12 @@ i:hover{
 	#welcome_cnt{
 		width: 100%;
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: repeat(3,1fr);
 	}
 
 	.card.welcome{
 		margin:0 auto;
 	}
-
-
-
 
 	.info_wrapper{
 		width: 100%;
@@ -396,7 +423,6 @@ i:hover{
 
 	.info_wrapper p{
 		margin:0 auto;
-		/*width: 400px;*/
 		width: 100%;
 	}
 
@@ -459,11 +485,13 @@ i:hover{
 }
 
 #showcase_slider{
+	position: relative;
 	min-height: 700px;
 	text-align: center;
-	background-image: url('images/slide01.jpg');
+	background-image: url('assets/css/images/showcase_1.jpeg');
 	background-position:center;
 	background-size: cover;
+	z-index: -1;
 
 }
 
@@ -471,6 +499,15 @@ i:hover{
 	padding-top: 100px;
 	padding-bottom: 0;
 	font-size: 1.90em;
+}
+
+.overlay{
+	position: absolute;
+	background-color: rgba(130,63,63,0.3);
+	height: 100%;
+	width: 100%;
+	z-index:-3;
+
 }
 
 .navbar{
